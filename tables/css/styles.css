@@ -1,0 +1,22 @@
+h1, h2, h3{
+    text-align: center;
+}
+
+nav{
+    text-align: center;
+}
+nav a{
+    text-align: center;
+    font-size: larger;
+    color: rgb(68, 22, 30);
+    padding:10px 20px;
+    background-color: papayawhip;
+    font-weight:bold;
+    text-decoration:none;
+    border-radius:20px;
+    border: 2px solid;
+    
+}
+body{
+    background-color: ivory;
+}
