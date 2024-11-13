@@ -1,0 +1,213 @@
+    /* 
+    link to thumbs up emoji
+    https://bluemoji.io/emoji/double-thumbs-up#Pink 
+
+    all other images were taken by me
+    */
+    
+body{
+  background:#FCFAEA ;
+  color: rgb(44, 6, 6);
+  box-sizing: border-box;
+}
+
+.container{
+background:#F12B5C ;
+width: 80%;
+max-width: 1000px;
+margin: 10px auto;
+}
+
+h1{
+  font-family: "Playfair Display", serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 35px;
+text-align: center;
+}
+
+h2{
+  font-family: "Playfair Display", serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 31px;
+}
+
+h4{
+  font-family: "Playfair Display", serif;
+  font-weight: 500;
+  font-style: normal;
+    font-size: 20px;
+}
+
+p{
+  font-family: "IBM Plex Serif", serif;
+  font-weight: 80;
+  font-style: normal;
+  font-size: 27px;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+li{
+  font-size: larger;
+}
+
+nav{
+text-align: center;
+line-height: 3;
+}
+
+nav a, .button{
+padding: 10px 20px;
+margin-left: 20px;
+color: rgb(44, 6, 6) ;
+background:  #FCFAEA;
+border: 2px solid  #F12B5C;
+text-decoration: none;
+border-radius: 10px;
+font-size: large;
+}
+
+nav a:hover, .button:hover{
+color: rgb(44, 6, 6);
+background: #F95CA1;
+}
+
+img{
+  margin: 5%;
+  height: 80%;
+  width: 80%;
+  display: block;
+  border: 4px solid #F95CA1;
+}
+
+aside{
+    clear: both;
+    width:25%;
+    box-sizing: border-box;
+    margin: 7px;
+    padding: 7px;
+    overflow: auto;
+    border: 4px solid #F12B5C;
+    margin-left: 20px;
+    float: right;
+    
+}
+figcaption{
+padding:7px;
+}
+
+#layersbody img {
+  margin:  auto;
+  height: 50%;
+  width: 50%;
+  display: block;
+  border: 4px solid #F95CA1;
+}
+#layerlist img {
+  height: 30%;
+  width: 30%;
+  display: block;
+  border: 4px solid #F95CA1;
+  margin-right: 250px;
+  float: right;
+}
+
+#barberbody img {
+  margin:  3%;
+  height: 50%;
+  width: 50%;
+  display: block;
+  border: 4px solid #F95CA1;
+  float: right;
+}
+
+#onebody img {
+  margin:  3%;
+  height: 50%;
+  width: 50%;
+  display: block;
+  border: 4px solid #F95CA1;
+  float: left;
+}
+
+#pixiebody img {
+  margin:  auto;
+  height: 50%;
+  width: 50%;
+  display: block;
+  border: 4px solid #F95CA1;
+}
+
+#thumbsup {
+  width: 30%;
+  height: 30%;
+  margin: auto;
+  text-align: center;
+}
+
+header, footer{
+    clear: both;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    text-align: center;
+}
+
+main{
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+#clippers   {
+  width: 40%;
+  height: 40%;
+  float: right;
+  margin-right: 25px;
+}
+
+#finished{
+   width: 55%;
+  height: 55%;
+  margin: auto;
+}
+
+#layerstyle, #onestyle, #pixie {
+  width: 50%;
+  height: 50%;
+  margin: auto;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 10px;
+  padding: 20px;
+  width: 100%;
+  background: #F12B5C;
+  box-sizing: border-box;
+}
+
+.grid-container>div {
+  background-color: #F12B5C;
+  padding: auto;
+  min-height: 100%;
+  width: 100%;
+}
+
+.grid-container>div>img{
+  height: 80%;
+  width: 80%;
+  margin: 30px auto;
+  display: block;
+  cursor: pointer;
+}
+
+#layerlist li{
+  padding: 20px;
+}
